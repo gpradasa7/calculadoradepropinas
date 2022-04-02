@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reto1-GeekAcademy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="head">
+    <div class="content-div">
+      <h1 class="tittle">Calculadora de Propinas</h1>
+    </div>
+  </header>
+
+  <main id="main">
+    <div id="containt">
+      <div class="form">
+        <label for="account">Total de la cuenta</label>
+        <input type="text" id="account" autocomplete="off">
+        <label for="tips">Porcentaje de la propina</label>
+        <input type="text" id="tips" autocomplete="off">
+        <button id="button">Calcular</button>
+      </div>
+      <div class="resume">
+        <h2>Resumen de la cuenta</h2>
+        <label for="totalAccount">Total de la cuenta:</label>
+        <input type="text" id="totalAccount" readonly disabled>
+        <label for="totalItems">Propina:</label>
+        <input type="text" id="totalTips" readonly disabled>
+        <label for="totalPay">Total a Pagar:</label>
+        <input type="text" id="totalPay" readonly disabled>
+      </div>
+    </div>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
